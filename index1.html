@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дарси 5</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+
+<body>
+
+
+
+<div class="glavni0">
+    <h1>Variables</h1>
+</div>
+    <div class="glavni"> <br>
+        <h2 class="n1">Тағйирёбандаҳо (Variables) дар Python</h2>
+        <p class="n2">• Тағйирёбанда = қуттӣ (ҷой) барои нигоҳ доштани маълумот.</p>
+        <h2 class="n1">Чӣ кор мекунад?</h2>
+        <p class="n2">• Маълумотро нигоҳ медорад (ном, синну сол, рақам, матн...).</p>
+        <p class="n2">• Баъд онро дар барнома истифода мекунем.</p>
+        <div class="code">
+            <p>Эҷоди тағирёбандаҳо</p>
+            <pre><code>
+x = <span class="red">5</span>
+y = <span class="yel">"John"</span> 
+<span class="blue">print</span>(x)
+<span class="blue">print</span>(y)
+
+            </code></pre>
+        </div>
+        <h2 class="n1">Ивази (нав кардани) тағйирёбанда дар Python</h2>
+        <p class="n2">• Яъне ба як тағйирёбанда қимати нав медиҳем. Қимати кӯҳнааш дигар истифода намешавад.</p>
+        <p class="n2">• Ба ҳамон қуттӣ (variable) маълумоти нав мегузорад.</p>
+        <p class="n2">• Қимати пешинаашро аз хотира иваз мекунад.</p>
+        <div class="code">
+            <p>Мисоли оддӣ:</p>
+            <pre>
+                <code>
+x = <span class="red">5</span>
+<span class="blue">print</span>(x)   <span class="gray">  # натиҷа: 5</span>
+
+x = <span class="red">10</span>     <span class="gray">  # иваз шуд</span>
+<span class="blue">print</span>(x)   <span class="gray">  # натиҷа: 10</span>
+
+x = <span class="yel">"Салом"</span>  <span class="gray"># боз иваз шуд</span>
+<span class="blue">print</span>(x)     <span class="gray"># натиҷа: Салом</span>
+                </code>
+            </pre>
+
+        </div>
+        <h2 class="n1">Casting дар Python</h2>
+        <p class="n2">
+            • Casting = табдил додани як навъи маълумот ба навъи дигар. <br>
+            • Мисол: рақамро ба матн, матнро ба рақам табдил додан.
+        </p>
+
+        <div class="code">
+            <p>Мисоли оддӣ:</p>
+            <pre><code>
+x = <span class="blue">str(3) </span>   <span class="gray"># x will be '3'</span>
+y = <span class="blue">int(3)</span>    <span class="gray"># y will be 3</span>
+z = <span class="blue">float(3)</span>  <span class="gray"># z will be 3.0</span>
+            </code></pre>
+        </div>
+
+        <h2 class="n1">Иқтибосҳои ягона ё дугона?</h2>
+        <p class="n2">• Тағйирёбандаҳои сатрро бо истифода аз нохунакҳои ягона ё дугона эълон кардан мумкин аст:
+
+        </p>
+        <div class="code">
+            <p>Мисол:</p>
+            <pre><code>
+x = <span class="yel">"John"</span> 
+<span class="gray"># ҳамон тавре аст</span>
+x = <span class="yel">'John'</span> 
+
+            </code></pre>
+        </div>
+
+        <h2 class="n1">Ҳарф калон ё хурд (Case Sensitivity) дар Python </h2>
+        <p class="n2">• Python ҳарфҳоро фарқ мекунад. <br>
+            • Яъне Name ≠ name ≠ NAME. <br>
+            • Тағйирёбандаҳо, функсияҳо ва номҳои дигар бояд дақиқ ҳамон ҳарфро дошта бошанд, вагарна хато мешавад.
+
+        </p> <br> <br>
+        <div class="grid_code">
+
+
+            <div class="code">
+                <p>Мисолҳои оддӣ:</p>
+                <pre><code>
+                    name = <span class="yel">"Абдулло"</span> 
+                    Name = <span class="yel">"Зӯҳро"</span> 
+                    
+                    <span class="blue">print</span>(name)  <span class="gray"># натиҷа: Абдулло</span>
+                    <span class="blue">print(Name)  <span class="gray"># натиҷа: Зӯҳро</span>
+                </code></pre>
+            </div> 
+
+            
+            <div class="code" style="background-color: rgba(255, 0, 0, 0.164);">
+                <p>❌ Агар кӯшиш кунем:</p>
+                <pre>
+                    <code>
+                        <span class="blue">print</span>(NAME)  <span class="gray"># NameError: name 'NAME' is not defined</span>
+                    </code>
+                </pre>
+            </div>
+
+        </div> <br>
+        <h2 class="n1">
+            Қоидаҳои асосӣ:
+        </h2>
+        <p class="n2">• Ҳарфи калон ва хурд фарқ мекунанд.</p>
+        <p class="n2">• Номи тағйирёбандаҳо ва функсияҳо бояд дақиқ навишта шаванд.</p>
+
+
+
+
+
+
+    </div> <br><br>
+       <footer>
+        <p>&copy; 2025 AlgoBox | <a href="https://github.com/abdullo-backend">GitHub</a></p>
+    </footer>
+
+
+        <div class="end">
+        <a href="https://abdullo-backend.github.io/python_lesson_4/">&#10096;&emsp;Пешина</a>
+        <a href="">Баъди&emsp;&#10097;</a>
+    </div> <br>
+    
+
+
+
+
+
+
+</body>
+
+</html>
